@@ -1,3 +1,7 @@
+'''
+♥; created 2024 copyright JST GPLv3
+take a breath and hunt evil
+'''
 import argparse
 import psutil
 import os
