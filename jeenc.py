@@ -134,8 +134,8 @@ def main():
     args = parser.parse_args()
     appendLogTime("Application began execution")
     #debug
-    args.path="E:\\Code\\"
-    args.loadHashFileP="E:\\Code\\jericho\\test.hash"
+    #args.path="E:\\Code\\"
+    #args.loadHashFileP="E:\\Code\\jericho\\test.hash"
     #
     try:
         if args.loadHashFileP:
