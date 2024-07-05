@@ -184,7 +184,7 @@ def examine(path):#define: given a filepath, recursively explore all directories
             if(os.path.isdir(x)):
                 examine(x+r'\\')
 
-            if(videoType.match(x[-5:]) or otherType.match(x[-5:])):
+            if(videoType.match(x) or otherType.match(x)):
                 print('==========================================HASH REQUEST=============================================================')
                 hash=md5(x)
                 reportCSVPath.append(x+','+hash)#passively collect report of videohashes along way in case of triggering alert csvfmt<FILEPATH,MD5>
