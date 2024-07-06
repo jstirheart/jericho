@@ -154,7 +154,7 @@ def main():
     #args.path="E:\\Code\\"
     #args.loadHashFileP="E:\\Code\\jericho\\test.hash"
     #args.re=".*"
-    args.acquireFiles="E:\\Code\\jericho\\jericho\\testAcqPath.txt"
+    #args.acquireFiles="E:\\Code\\jericho\\jericho\\testAcqPath.txt"
     #
     try:
         if args.loadHashFileP:
