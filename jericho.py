@@ -151,7 +151,7 @@ def main():
     args = parser.parse_args()
     appendLogTime("Application began execution")
     #debug
-    args.path="E:\\Code\\"
+    #args.path="E:\\Code\\"
     #args.loadHashFileP="E:\\Code\\jericho\\test.hash"
     #args.re=".*"
     args.acquireFiles="E:\\Code\\jericho\\jericho\\testAcqPath.txt"
